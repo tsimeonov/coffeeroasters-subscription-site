@@ -13,6 +13,7 @@
   */
 * {
   margin: 0;
+  font-size: 62.5%;
 }
 /*
     Typographic tweaks!
@@ -110,58 +111,74 @@ a:hover {
 /************ BANNER ************/
 
 .banner {
-  margin-top: 44px;
+  margin-top: 4.4rem;
   position: relative;
 }
 
 .banner img {
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .banner-content {
   position: absolute;
   top: 0;
   left: 0;
-  margin: 90px 0 0 86px;
+  margin: 8.5rem;
 }
 
 .banner-content h2 {
   color: #fefcf7;
   font-family: Fraunces, sans-serif;
-  font-size: 72px;
-  line-height: 72px; /* 100% */
-  width: 50%;
+  font-size: 7.2rem;
+  line-height: 7.2rem; /* 100% */
+  width: 55rem;
+  /* word-wrap: break-word; */
 }
 
 .banner-content p {
   color: #fefcf7;
   font-family: Barlow;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-  width: 35%;
-  margin: 32px 0 56px 0;
+  font-size: 1.6rem;
+  line-height: 2.6rem; /* 162.5% */
+  width: 40rem;
+  margin: 3.2rem 0 5.6rem 0;
 }
 
 .banner-content button {
   background-color: hsla(179, 81%, 29%, 1);
-  border-radius: 6px;
+  border-radius: 0.6rem;
   border: none;
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
   color: #fefcf7;
   text-align: center;
   font-family: Fraunces, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 25px; /* 138.889% */
+  font-size: 1.8rem;
+  line-height: 2.5rem;
   transition: all 0.2s ease-in-out;
 }
 
 .banner-content button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+/********************** MEDIA QUERY TABLET **********************/
+
+@media screen and (max-width: 1160px) {
+  .banner-content {
+    margin: 10rem;
+  }
+
+  .banner-content h2 {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    width: 43rem;
+  }
+
+  .banner-content p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
@@ -185,7 +202,12 @@ a:hover {
   }
 
   .mobile-menu {
-    background-color: hsla(0, 0%, 98%, 0.5);
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border-radius: 10px;
     position: fixed;
     top: 0;
     right: 0;
@@ -194,8 +216,6 @@ a:hover {
     width: 100vw;
     height: 100vh;
     padding: 38px;
-    box-shadow: 2px 5px 25px rgb(0 0 0 / 15%);
-
     transition: all 0.25s ease-in-out;
     z-index: 50;
   }
@@ -225,7 +245,7 @@ a:hover {
   }
 
   .sidebar-list a {
-    color: #83888f;
+    color: hsla(216, 20%, 25%, 1);
     font-family: Fraunces, sans-serif;
     font-size: 24px;
     font-weight: 900;
@@ -235,7 +255,7 @@ a:hover {
   }
 
   .sidebar-list a:hover {
-    color: #333d4b;
+    color: hsla(215, 5%, 54%, 1);
     transition: 0.2s ease-in-out;
   }
 }
