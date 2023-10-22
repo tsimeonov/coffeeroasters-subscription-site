@@ -24,7 +24,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: Barlow, sans-serif;
   max-width: 1440px;
-  margin: 32px 88px;
+  min-width: 312px;
+  margin: 0 auto;
   background-color: hsla(40, 76%, 98%, 1);
 }
 /*
@@ -69,6 +70,11 @@ h6 {
 
 /********************** HEADER **********************/
 
+header {
+  z-index: 10;
+  margin: 32px 80px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -101,10 +107,78 @@ a:hover {
   display: none;
 }
 
-/********************** MEDIA QUERY TABLET **********************/
+/********************** MEDIA QUERY MOBILE **********************/
 
-@media screen and (max-width: 760px) {
-  body {
+@media screen and (max-width: 730px) {
+  header {
     margin: 32px 24px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger,
+  .mobile-menu {
+    display: block;
+  }
+
+  .hamburger {
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    background-color: hsla(0, 0%, 98%, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 38px;
+    box-shadow: 2px 5px 25px rgb(0 0 0 / 15%);
+
+    transition: all 0.25s ease-in-out;
+    z-index: 50;
+  }
+
+  .mobile-menu.open {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .sidebar-list {
+    padding: 0;
+  }
+
+  .sidebar-list li {
+    list-style: none;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 32px;
+  }
+
+  .sidebar-list a {
+    color: #83888f;
+    font-family: Fraunces, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin: 0;
+    transition: 0.2s ease-in-out;
+  }
+
+  .sidebar-list a:hover {
+    color: #333d4b;
+    transition: 0.2s ease-in-out;
   }
 }
