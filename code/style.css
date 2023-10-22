@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: Barlow, sans-serif;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 32px 88px;
   background-color: hsla(40, 76%, 98%, 1);
 }
 /*
@@ -78,7 +78,6 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  margin: 44px 0;
 }
 
 a {
@@ -100,4 +99,12 @@ a:hover {
 .hamburger,
 .mobile-menu {
   display: none;
+}
+
+/********************** MEDIA QUERY TABLET **********************/
+
+@media screen and (max-width: 760px) {
+  body {
+    margin: 32px 24px;
+  }
 }
