@@ -107,6 +107,27 @@ a:hover {
   display: none;
 }
 
+/************ BANNER ************/
+
+.banner {
+  margin-top: 44px;
+  position: relative;
+}
+
+.banner img {
+  border-radius: 10px;
+}
+
+.banner h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fefcf7;
+  font-family: Fraunces, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
 /********************** MEDIA QUERY MOBILE **********************/
 
 @media screen and (max-width: 730px) {
