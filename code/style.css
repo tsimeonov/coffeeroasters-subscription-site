@@ -200,10 +200,9 @@ a:hover {
 .coffee-group img {
   width: 20rem;
   margin-bottom: 5rem;
-  /* text-align: center; */
 }
 
-.coffee-group-content h4 {
+.coffee-group h4 {
   color: #333d4b;
   text-align: center;
   font-family: Fraunces, sans-serif;
@@ -215,7 +214,7 @@ a:hover {
   margin-bottom: 2.4rem;
 }
 
-.coffee-group-content p {
+.coffee-group p {
   color: #333d4b;
   text-align: center;
   font-family: Barlow;
@@ -246,18 +245,30 @@ a:hover {
 
   .coffee-group {
     flex-direction: column;
-    top: 230%;
+    align-items: center;
+    top: 505%;
   }
 
   .coffee-group div {
     flex-direction: row;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .coffee-group img {
+    padding-top: 1rem;
   }
 
   .coffee-group > div > div {
-    outline: 1px solid red;
     display: flex;
     flex-direction: column;
-    /* height: 20rem; */
+    align-items: flex-start;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
+  }
+
+  .coffee-group p {
+    width: 68%;
   }
 }
 
