@@ -164,6 +164,11 @@ a:hover {
 
 /************ OUR COLLECTION ************/
 
+.our-collection {
+  position: relative;
+  margin-top: 15.5rem;
+}
+
 .our-collection h3 {
   background: #d9d5d2;
   background: repeating-linear-gradient(to bottom, #d9d5d2 0%, #fefcf7 100%);
@@ -174,6 +179,51 @@ a:hover {
   font-size: 150px;
   line-height: 72px; /* 48% */
   padding-bottom: 25px;
+}
+
+.coffee-group {
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 70%;
+}
+
+.coffee-group div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right: 5rem; */
+}
+
+.coffee-group img {
+  width: 20rem;
+  margin-bottom: 5rem;
+  /* text-align: center; */
+}
+
+.coffee-group h4 {
+  color: #333d4b;
+  text-align: center;
+  font-family: Fraunces, sans-serif;
+  text-transform: capitalize;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 2.4rem;
+}
+
+.coffee-group p {
+  color: #333d4b;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 90%;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
