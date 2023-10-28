@@ -18,127 +18,139 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <img src="./assets/shared/desktop/logo.svg" alt="website logo">
-      <ul>
-        <li>
-          <a href="#">home</a>
-        </li>
-        <li>
-          <a href="#">about us</a>
-        </li>
-        <li>
-          <a href="#">create your plan</a>
-        </li>
-      </ul>
-      <!-- HAMBURGER ICON -->
-      <div class="hamburger" id="hamburger">
-        <img src="./assets/shared//mobile/icon-hamburger.svg" alt="hamburger icon">
+
+  <div class="container">
+    <div class="navbar"></div>
+    <div class="banner"></div>
+    <div class="our-collecion"></div>
+    <div class="why-choose-us"></div>
+    <div class="how-it-works"></div>
+    <div class="footer"></div>
+
+
+
+    <header>
+      <nav>
+        <img src="./assets/shared/desktop/logo.svg" alt="website logo">
+        <ul>
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">about us</a>
+          </li>
+          <li>
+            <a href="#">create your plan</a>
+          </li>
+        </ul>
+        <!-- HAMBURGER ICON -->
+        <div class="hamburger" id="hamburger">
+          <img src="./assets/shared//mobile/icon-hamburger.svg" alt="hamburger icon">
+        </div>
+      </nav>
+
+      <!-- SIDEBAR -->
+      <div class="mobile-menu" id="sidebar">
+        <div class="close-btn" id="closeBtn">
+          <img src="./assets/shared/mobile/icon-close.svg" alt="close icon">
+        </div>
+
+        <ul class="sidebar-list">
+          <li>
+            <a href="#" class="sidebar-link">home</a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-link">about us</a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-link">create your plan</a>
+          </li>
+        </ul>
       </div>
-    </nav>
 
-    <!-- SIDEBAR -->
-    <div class="mobile-menu" id="sidebar">
-      <div class="close-btn" id="closeBtn">
-        <img src="./assets/shared/mobile/icon-close.svg" alt="close icon">
+      <!-- BANNER -->
+
+      <div class="banner">
+        <picture>
+          <source media="(max-width:855px)" srcset="./assets/home/mobile/image-hero-coffeepress.jpg">
+          <source media="(min-width:481px) and (max-width:1160px)"
+            srcset="./assets/home/tablet/image-hero-coffeepress.jpg">
+          <img src="./assets/home/desktop/image-hero-coffeepress.jpg" alt="picture-description">
+        </picture>
+        <div class="banner-content">
+          <h2>Great coffee made simple.</h2>
+          <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best
+            roasters delivered directly to your door, at your schedule.</p>
+          <button>Create your plan</button>
+        </div>
       </div>
+    </header>
 
-      <ul class="sidebar-list">
-        <li>
-          <a href="#" class="sidebar-link">home</a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-link">about us</a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-link">create your plan</a>
-        </li>
-      </ul>
-    </div>
-
-    <!-- BANNER -->
-
-    <div class="banner">
-      <picture>
-        <source media="(max-width:855px)" srcset="./assets/home/mobile/image-hero-coffeepress.jpg">
-        <source media="(min-width:481px) and (max-width:1160px)"
-          srcset="./assets/home/tablet/image-hero-coffeepress.jpg">
-        <img src="./assets/home/desktop/image-hero-coffeepress.jpg" alt="picture-description">
-      </picture>
-      <div class="banner-content">
-        <h2>Great coffee made simple.</h2>
-        <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best
-          roasters delivered directly to your door, at your schedule.</p>
-        <button>Create your plan</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- OUT COLLECTION -->
-  <main>
-    <div class="our-collection">
-      <h3>our collection</h3>
-      <div class="coffee-group">
-        <div>
-          <img src="./assets/home/desktop/image-gran-espresso.png" alt="coffee gran espresso">
+    <!-- OUT COLLECTION -->
+    <main>
+      <div class="our-collection">
+        <h3>our collection</h3>
+        <div class="coffee-group">
           <div>
-            <h4>Gran sepresso</h4>
-            <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+            <img src="./assets/home/desktop/image-gran-espresso.png" alt="coffee gran espresso">
+            <div>
+              <h4>Gran sepresso</h4>
+              <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/home/desktop/image-planalto.png" alt="coffee planalto">
+            <div>
+              <h4>planalto</h4>
+              <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/home/desktop/image-piccollo.png" alt="coffee piccollo">
+            <div>
+              <h4>Piccollo</h4>
+              <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/home/desktop/image-danche.png" alt="coffee danche">
+            <div>
+              <h4>danche</h4>
+              <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+            </div>
           </div>
         </div>
-        <div>
-          <img src="./assets/home/desktop/image-planalto.png" alt="coffee planalto">
-          <div>
-            <h4>planalto</h4>
-            <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
-          </div>
-        </div>
-        <div>
-          <img src="./assets/home/desktop/image-piccollo.png" alt="coffee piccollo">
-          <div>
-            <h4>Piccollo</h4>
-            <p>Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
-          </div>
-        </div>
-        <div>
-          <img src="./assets/home/desktop/image-danche.png" alt="coffee danche">
-          <div>
-            <h4>danche</h4>
-            <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
-          </div>
-        </div>
       </div>
-    </div>
 
-    <!-- WHY CHOOSE US -->
-    <div class="why-choose-us">
-      <h3>Why choose us?</h3>
-      <p>A large part of our role is choosing which particular coffees will be featured
-        in our range. This means working closely with the best coffee growers to give
-        you a more impactful experience on every level.
-      </p>
-      <div>
-        <img src="./assets/home/desktop/icon-coffee-bean.svg" alt="coffee bean">
-        <div class="why-us-content">
-          <h4>best quality</h4>
-          <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.
-          </p>
-        </div>
+      <!-- WHY CHOOSE US -->
+      <div class="why-choose-us">
+        <h3>Why choose us?</h3>
+        <p>A large part of our role is choosing which particular coffees will be featured
+          in our range. This means working closely with the best coffee growers to give
+          you a more impactful experience on every level.
+        </p>
         <div>
-          <img src="./assets/home/desktop/icon-gift.svg" alt="gift">
-          <h4>Exclusive benefits</h4>
-          <p>Special offers and swag when you subscribe, including 30% off your first shipment.
-          </p>
-        </div>
-        <div>
-          <img src="./assets/home/desktop/icon-truck.svg" alt="truck">
-          <h4>Free shipping</h4>
-          <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+          <img src="./assets/home/desktop/icon-coffee-bean.svg" alt="coffee bean">
+          <div class="why-us-content">
+            <h4>best quality</h4>
+            <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.
+            </p>
+          </div>
+          <div>
+            <img src="./assets/home/desktop/icon-gift.svg" alt="gift">
+            <h4>Exclusive benefits</h4>
+            <p>Special offers and swag when you subscribe, including 30% off your first shipment.
+            </p>
+          </div>
+          <div>
+            <img src="./assets/home/desktop/icon-truck.svg" alt="truck">
+            <h4>Free shipping</h4>
+            <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
 
   <script src="./app.js"></script>
 </body>
