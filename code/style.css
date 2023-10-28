@@ -183,7 +183,7 @@ a:hover {
 
 /********************** MEDIA QUERY MOBILE **********************/
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 855px) {
   header {
     margin: 32px 24px;
   }
@@ -259,8 +259,9 @@ a:hover {
     transition: 0.2s ease-in-out;
   }
 
-  .banner-content h2 {
-    text-align: center;
+  .banner {
+    display: flex;
+    justify-content: center;
   }
 
   .banner-content {
