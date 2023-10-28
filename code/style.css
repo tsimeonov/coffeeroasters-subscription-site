@@ -166,7 +166,7 @@ a:hover {
 
 @media screen and (max-width: 1160px) {
   .banner-content {
-    margin: 10rem;
+    margin: 15rem 0 0 10rem;
   }
 
   .banner-content h2 {
@@ -183,7 +183,7 @@ a:hover {
 
 /********************** MEDIA QUERY MOBILE **********************/
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 855px) {
   header {
     margin: 32px 24px;
   }
