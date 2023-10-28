@@ -183,26 +183,13 @@ a:hover {
 
 /********************** MEDIA QUERY MOBILE **********************/
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 730px) {
   header {
     margin: 32px 24px;
   }
 
   nav ul {
     display: none;
-  }
-
-  .banner {
-    display: flex;
-    justify-content: center;
-  }
-
-  .banner-content {
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
   }
 
   .hamburger,
@@ -270,5 +257,15 @@ a:hover {
   .sidebar-list a:hover {
     color: hsla(215, 5%, 54%, 1);
     transition: 0.2s ease-in-out;
+  }
+
+  .banner-content h2 {
+    text-align: center;
+  }
+
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
