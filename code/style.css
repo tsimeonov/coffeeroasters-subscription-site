@@ -283,19 +283,6 @@ a:hover {
     display: none;
   }
 
-  .banner {
-    display: flex;
-    justify-content: center;
-  }
-
-  .banner-content {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    text-align: center;
-  }
-
   .hamburger,
   .mobile-menu {
     display: block;
@@ -361,5 +348,39 @@ a:hover {
   .sidebar-list a:hover {
     color: hsla(215, 5%, 54%, 1);
     transition: 0.2s ease-in-out;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+  }
+
+  .coffee-group {
+    top: 870%;
+  }
+
+  .coffee-group img {
+    margin-bottom: 2rem;
+  }
+
+  .our-collection h3 {
+    font-size: 4rem;
+  }
+
+  .coffee-group div {
+    flex-direction: column;
+  }
+
+  .coffee-group > div > div {
+    align-items: center;
+    margin-left: 0;
   }
 }
