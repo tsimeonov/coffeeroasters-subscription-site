@@ -252,6 +252,13 @@ a:hover {
   .coffee-group div {
     flex-direction: row;
   }
+
+  .coffee-group > div > div {
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    /* height: 20rem; */
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
