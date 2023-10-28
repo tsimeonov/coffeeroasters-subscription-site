@@ -203,7 +203,7 @@ a:hover {
   /* text-align: center; */
 }
 
-.coffee-group h4 {
+.coffee-group-content h4 {
   color: #333d4b;
   text-align: center;
   font-family: Fraunces, sans-serif;
@@ -215,7 +215,7 @@ a:hover {
   margin-bottom: 2.4rem;
 }
 
-.coffee-group p {
+.coffee-group-content p {
   color: #333d4b;
   text-align: center;
   font-family: Barlow;
@@ -242,6 +242,15 @@ a:hover {
   .banner-content p {
     font-size: 1.5rem;
     line-height: 2.5rem;
+  }
+
+  .coffee-group {
+    flex-direction: column;
+    top: 230%;
+  }
+
+  .coffee-group div {
+    flex-direction: row;
   }
 }
 
