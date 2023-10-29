@@ -259,7 +259,7 @@ a:hover {
 
 .why-us {
   grid-area: why-us;
-  outline: 1px solid green;
+  border-radius: 1rem;
 }
 
 .background {
@@ -281,8 +281,8 @@ a:hover {
   color: #fefcf7;
   text-align: center;
   font-family: Barlow;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -308,7 +308,7 @@ img[alt="truck"] {
 }
 
 .why-us-content div {
-  border-radius: 8px;
+  border-radius: 0.8rem;
   background: #0e8784;
   display: flex;
   flex-direction: column;
@@ -320,10 +320,8 @@ img[alt="truck"] {
   color: #fefcf7;
   text-align: center;
   font-family: Fraunces, sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 32px; /* 133.333% */
+  font-size: 2.4rem;
+  line-height: 3.2rem; /* 133.333% */
 }
 
 .why-us-content div p {
