@@ -83,7 +83,7 @@ h6 {
     "navbar"
     "banner"
     "our-collection"
-    "why"
+    "why-us"
     "how-it-works"
     "footer";
   width: 100%;
@@ -256,8 +256,8 @@ a:hover {
 
 /************ WHY CHOOSE US ************/
 
-.why {
-  grid-area: why;
+.why-us {
+  grid-area: why-us;
   outline: 1px solid green;
 }
 
