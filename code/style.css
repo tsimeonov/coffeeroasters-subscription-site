@@ -355,7 +355,7 @@ img[alt="truck"] {
   }
 
   .container {
-    grid-template-rows: 200px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7rem 78rem 118rem 1fr 1fr 1fr;
   }
 
   .banner-content {
@@ -403,6 +403,23 @@ img[alt="truck"] {
 
   .why-us > div {
     flex-direction: column;
+  }
+
+  .why-us div img {
+    margin: 6.2rem 7rem;
+  }
+
+  .why-us-content div {
+    flex-direction: row;
+    margin-bottom: 2.4rem;
+    height: 100%;
+  }
+
+  .why-us-content div div {
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid blue;
+    margin: 4rem 4.8rem 0 0;
   }
 }
 
