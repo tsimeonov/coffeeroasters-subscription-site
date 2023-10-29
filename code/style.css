@@ -82,7 +82,7 @@ h6 {
   grid-template-areas:
     "navbar"
     "banner"
-    "our-collecion"
+    "our-collection"
     "why-choose-us"
     "how-it-works"
     "footer";
@@ -185,28 +185,14 @@ a:hover {
   transform: scale(1.1);
 }
 
-.our-collecion {
-  grid-area: our-collecion;
-}
-
-.why-choose-us {
-  grid-area: why-choose-us;
-}
-
-.how-it-works {
-  grid-area: how-it-works;
-}
-
-.footer {
-  grid-area: footer;
-}
-
 /************ OUR COLLECTION ************/
 
 .our-collection {
+  grid-area: our-collection;
+  outline: 1px solid blue;
   position: relative;
   margin-top: 15.5rem;
-  height: 8vh;
+  /* height: 8vh; */
 }
 
 .our-collection h3 {
@@ -223,7 +209,7 @@ a:hover {
 
 .coffee-group {
   position: absolute;
-  top: 230%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -263,6 +249,18 @@ a:hover {
   font-weight: 400;
   line-height: 26px; /* 162.5% */
   width: 90%;
+}
+
+.why-choose-us {
+  grid-area: why-choose-us;
+}
+
+.how-it-works {
+  grid-area: how-it-works;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 /************ WHY CHOOSE US ************/
