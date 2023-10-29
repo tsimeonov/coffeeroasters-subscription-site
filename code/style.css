@@ -325,8 +325,12 @@ a:hover {
 /********************** MEDIA QUERY MOBILE **********************/
 
 @media screen and (max-width: 855px) {
-  header {
-    margin: 32px 24px;
+  body {
+    margin: 2rem 2.5rem;
+  }
+
+  .container {
+    grid-template-rows: 7rem 1fr 1fr 1fr 1fr 1fr;
   }
 
   nav ul {
@@ -403,6 +407,10 @@ a:hover {
   .banner {
     display: flex;
     justify-content: center;
+  }
+
+  .banner img {
+    width: 100vw;
   }
 
   .banner-content {
