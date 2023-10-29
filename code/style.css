@@ -274,6 +274,10 @@ a:hover {
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 1160px) {
+  body {
+    margin: 2rem 4rem;
+  }
+
   .banner-content {
     margin: 15rem 0 0 10rem;
   }
