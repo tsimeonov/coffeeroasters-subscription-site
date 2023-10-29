@@ -205,6 +205,7 @@ a:hover {
   font-size: 150px;
   line-height: 72px; /* 48% */
   padding-bottom: 25px;
+  white-space: nowrap;
 }
 
 .coffee-group {
