@@ -422,7 +422,10 @@ a:hover {
   }
 
   .coffee-group {
-    top: 73rem;
+    /* top: 73rem; */
+    margin-top: 23rem;
+    height: 138rem;
+    outline: 1px solid red;
   }
 
   .coffee-group img {
