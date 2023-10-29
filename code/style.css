@@ -284,6 +284,9 @@ a:hover {
   text-align: center;
   width: 51rem;
 }
+.why-us > div {
+  display: flex;
+}
 
 .how-it-works {
   grid-area: how-it-works;
