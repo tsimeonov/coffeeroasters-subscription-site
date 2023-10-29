@@ -83,11 +83,13 @@ h6 {
     "navbar"
     "banner"
     "our-collection"
-    "why-choose-us"
+    "why"
     "how-it-works"
     "footer";
   width: 100%;
 }
+
+/* NAVBAR */
 
 .navbar {
   grid-area: navbar;
@@ -252,8 +254,11 @@ a:hover {
   width: 90%;
 }
 
-.why-choose-us {
-  grid-area: why-choose-us;
+/************ WHY CHOOSE US ************/
+
+.why {
+  grid-area: why;
+  outline: 1px solid green;
 }
 
 .how-it-works {
@@ -262,13 +267,6 @@ a:hover {
 
 .footer {
   grid-area: footer;
-}
-
-/************ WHY CHOOSE US ************/
-
-.why-choose-us {
-  outline: 1px solid red;
-  height: 10vh;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
