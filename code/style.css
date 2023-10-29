@@ -142,6 +142,7 @@ a:hover {
 
 .banner img {
   border-radius: 1rem;
+  width: 100vw;
 }
 
 .banner-content {
@@ -405,10 +406,6 @@ a:hover {
   .banner {
     display: flex;
     justify-content: center;
-  }
-
-  .banner img {
-    width: 100vw;
   }
 
   .banner-content {
