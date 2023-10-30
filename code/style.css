@@ -360,7 +360,7 @@ img[alt="truck"] {
   }
 
   .container {
-    grid-template-rows: 7rem 78rem 118rem 1fr 1fr 1fr;
+    grid-template-rows: 7rem 66rem 118rem 1fr 1fr 1fr;
   }
 
   /* .banner img {
