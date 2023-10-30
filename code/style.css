@@ -364,6 +364,10 @@ img[alt="truck"] {
     grid-template-rows: 7rem 78rem 118rem 1fr 1fr 1fr;
   }
 
+  .banner img {
+    height: 59vh;
+  }
+
   .banner-content {
     margin: 15rem 0 0 10rem;
   }
@@ -431,13 +435,13 @@ img[alt="truck"] {
 
 /********************** MEDIA QUERY MOBILE **********************/
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 580px) {
   body {
     margin: 2rem 2.5rem;
   }
 
   .container {
-    grid-template-rows: 7rem 88vh 160rem 1fr 1fr 1fr;
+    grid-template-rows: 7rem 500px 160rem 1fr 1fr 1fr;
   }
 
   nav ul {
@@ -514,6 +518,11 @@ img[alt="truck"] {
   .banner {
     display: flex;
     justify-content: center;
+  }
+
+  .banner img {
+    /* height: 20rem; */
+    width: 30rem;
   }
 
   .banner-content {
