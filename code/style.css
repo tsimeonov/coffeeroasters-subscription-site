@@ -141,8 +141,13 @@ a:hover {
 }
 
 .banner img {
-  border-radius: 1rem;
-  width: 100vw;
+  /* border-radius: 1rem; */
+  /* width: 100vw; */
+}
+
+.banner picture {
+  width: 100%;
+  /* height: 100%; */
 }
 
 .banner-content {
@@ -431,7 +436,7 @@ img[alt="truck"] {
   }
 
   .container {
-    grid-template-rows: 7rem 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7rem 88vh 160rem 1fr 1fr 1fr;
   }
 
   nav ul {
@@ -521,7 +526,6 @@ img[alt="truck"] {
   .coffee-group {
     /* top: 73rem; */
     margin-top: 23rem;
-    height: 138rem;
     outline: 1px solid red;
   }
 
