@@ -145,8 +145,9 @@ a:hover {
   /* width: 100vw; */
 }
 
-.banner picture {
-  width: 100%;
+.banner img {
+  width: 100vw;
+  height: 50vh;
   /* height: 100%; */
 }
 
