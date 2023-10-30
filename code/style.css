@@ -141,14 +141,13 @@ a:hover {
 }
 
 .banner img {
-  /* border-radius: 1rem; */
-  /* width: 100vw; */
-}
-
-.banner img {
   width: 100vw;
   height: 50vh;
   /* height: 100%; */
+}
+img[alt="tablet banner"],
+img[alt="mobile banner"] {
+  display: none;
 }
 
 .banner-content {
@@ -211,10 +210,10 @@ a:hover {
   -webkit-text-fill-color: transparent;
   text-align: center;
   font-family: Fraunces, sans-serif;
-  font-size: 150px;
+  font-size: 9.6rem;
   line-height: 72px; /* 48% */
   padding-bottom: 25px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .coffee-group {
@@ -355,7 +354,7 @@ img[alt="truck"] {
 
 /********************** MEDIA QUERY TABLET **********************/
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 960px) {
   body {
     margin: 2rem 4rem;
   }
@@ -364,8 +363,17 @@ img[alt="truck"] {
     grid-template-rows: 7rem 78rem 118rem 1fr 1fr 1fr;
   }
 
-  .banner img {
+  /* .banner img {
     height: 59vh;
+  } */
+
+  img[alt="desktop banner"],
+  img[alt="mobile banner"] {
+    display: none;
+  }
+
+  img[alt="tablet banner"] {
+    display: block;
   }
 
   .banner-content {
