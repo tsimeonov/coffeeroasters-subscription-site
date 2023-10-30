@@ -395,12 +395,14 @@ img[alt="truck"] {
     flex-direction: column;
     align-items: center;
     top: 50rem;
+    height: 64vh;
+    width: 70%;
   }
 
   .coffee-group div {
     flex-direction: row;
     justify-content: center;
-    width: 90%;
+    /* width: 90%; */
   }
 
   .coffee-group img {
@@ -415,8 +417,12 @@ img[alt="truck"] {
     margin-bottom: 5rem;
   }
 
+  .coffee-group h4 {
+    white-space: nowrap;
+  }
+
   .coffee-group p {
-    width: 68%;
+    /* width: 100%; */
   }
 
   .why-us > div {
