@@ -351,7 +351,7 @@ img[alt="truck"] {
 }
 
 .how-it-works-bar {
-  border-bottom: 3px solid #111;
+  border-bottom: 2px solid #fdd6ba;
   height: 1rem;
   display: flex;
   justify-content: space-between;
@@ -362,7 +362,7 @@ img[alt="truck"] {
   background: #fff;
   width: 2rem;
   height: 2rem;
-  border: 2px solid #111;
+  border: 2px solid #0e8784;
   border-radius: 2.5rem;
   box-shadow: 0 0 0 0.5rem #fff;
 }
