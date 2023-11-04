@@ -464,6 +464,14 @@ img[alt="truck"] {
     outline: 1px solid blue;
     margin: 4rem 4.8rem 0 0;
   }
+
+  .how-it-works-bar {
+    height: 2.5rem;
+  }
+  .circle {
+    width: 5rem;
+    height: 5rem;
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
