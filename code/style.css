@@ -575,6 +575,10 @@ img[alt="truck"] {
     margin-left: 0;
   }
 
+  .background {
+    height: 65%;
+  }
+
   .why-us h3 {
     margin-top: 6rem;
   }
