@@ -344,8 +344,27 @@ img[alt="truck"] {
   padding-bottom: 4.8rem;
 }
 
+/************ HOW-IT-WORKS ************/
+
 .how-it-works {
   grid-area: how-it-works;
+}
+
+.how-it-works-bar {
+  border-bottom: 3px solid #111;
+  height: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  display: inline-block;
+  background: #fff;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #111;
+  border-radius: 2.5rem;
+  box-shadow: 0 0 0 0.5rem #fff;
 }
 
 .footer {
