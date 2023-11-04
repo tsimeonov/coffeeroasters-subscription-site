@@ -574,4 +574,12 @@ img[alt="truck"] {
     align-items: center;
     margin-left: 0;
   }
+
+  .why-us h3 {
+    margin-top: 6rem;
+  }
+
+  .why-us > p {
+    padding: 0 9rem;
+  }
 }
