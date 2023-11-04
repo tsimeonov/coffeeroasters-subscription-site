@@ -582,4 +582,12 @@ img[alt="truck"] {
   .why-us > p {
     padding: 0 9rem;
   }
+
+  .why-us div img {
+    margin: 3rem 5rem;
+  }
+
+  .why-us-content div div {
+    margin: 3rem 4rem 0 0;
+  }
 }
