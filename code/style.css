@@ -562,7 +562,8 @@ img[alt="truck"] {
   }
 
   .our-collection h3 {
-    font-size: 4rem;
+    font-size: 8rem;
+    white-space: nowrap;
   }
 
   .coffee-group div {
