@@ -536,7 +536,7 @@ img[alt="truck"] {
 
   .banner img {
     /* height: 20rem; */
-    width: 30rem;
+    width: 100vw;
   }
 
   .banner-content {
