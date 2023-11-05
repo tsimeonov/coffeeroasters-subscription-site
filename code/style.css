@@ -710,6 +710,10 @@ img[alt="truck"] {
     display: none;
   }
 
+  .how-it-works-content div p:first-of-type {
+    margin: 8rem 0 4.8rem 0;
+  }
+
   .how-it-works-content {
     flex-direction: column;
   }
@@ -723,7 +727,11 @@ img[alt="truck"] {
     width: 100%;
   }
 
+  .how-it-works-content div p:last-of-type {
+    padding: 0 8rem;
+  }
+
   .how-it-works-button {
-    margin: 0 auto;
+    margin: 8rem auto;
   }
 }
