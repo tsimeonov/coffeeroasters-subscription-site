@@ -474,7 +474,7 @@ img[alt="truck"] {
   }
 
   .container {
-    grid-template-rows: 7rem 66rem 118rem 1fr 1fr 1fr;
+    grid-template-rows: 7rem 66rem 118rem 1fr 1fr 45rem;
   }
 
   /* .banner img {
@@ -570,6 +570,15 @@ img[alt="truck"] {
   .circle {
     width: 3rem;
     height: 3rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer ul {
+    padding: 0;
   }
 }
 
