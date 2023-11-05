@@ -412,6 +412,20 @@ img[alt="truck"] {
   margin-top: 4.2rem;
 }
 
+.how-it-works-button {
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces, sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.5rem; /* 138.889% */
+  border-radius: 6px;
+  border: none;
+  background: #0e8784;
+  width: 22rem;
+  padding: 1.5rem 3rem;
+  margin-top: 6.4rem;
+}
+
 .footer {
   grid-area: footer;
 }
