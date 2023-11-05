@@ -348,6 +348,8 @@ img[alt="truck"] {
 
 .how-it-works {
   grid-area: how-it-works;
+  outline: 1px solid green;
+  margin-top: 20rem;
 }
 
 .how-it-works h3 {
@@ -363,6 +365,7 @@ img[alt="truck"] {
   display: flex;
   justify-content: space-between;
   width: 60vw;
+  margin: 8rem 0 6.5rem 0;
 }
 
 .circle {
@@ -389,6 +392,7 @@ img[alt="truck"] {
   font-family: Fraunces, sans-serif;
   font-size: 7.2rem;
   line-height: 7.2rem; /* 100% */
+  margin: 3.8rem 0 4.2rem 0;
 }
 
 .how-it-works-content div h4 {
@@ -405,6 +409,7 @@ img[alt="truck"] {
   font-size: 1.6rem;
   line-height: 2.6rem; /* 162.5% */
   width: 28.5rem;
+  margin-top: 4.2rem;
 }
 
 .footer {
