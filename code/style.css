@@ -401,7 +401,9 @@ img[alt="truck"] {
   font-family: Fraunces, sans-serif;
   font-size: 3.2rem;
   line-height: 3.6rem; /* 112.5% */
-  width: 25rem;
+
+  word-wrap: normal;
+  width: 15vw;
 }
 
 .how-it-works-content div p:last-of-type {
@@ -409,7 +411,6 @@ img[alt="truck"] {
   font-family: Barlow, sans-serif;
   font-size: 1.6rem;
   line-height: 2.6rem; /* 162.5% */
-  width: 28.5rem;
   margin-top: 4.2rem;
 }
 
