@@ -574,7 +574,6 @@ img[alt="truck"] {
 
   .footer {
     flex-direction: column;
-    text-align: center;
   }
 
   .footer ul {
@@ -590,7 +589,7 @@ img[alt="truck"] {
   }
 
   .container {
-    grid-template-rows: 7rem 66rem 160rem 1fr 150rem 1fr;
+    grid-template-rows: 7rem 66rem 160rem 1fr 150rem 45rem;
   }
 
   nav ul {
@@ -769,5 +768,18 @@ img[alt="truck"] {
 
   .how-it-works-button {
     margin: 8rem auto;
+  }
+
+  .footer ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer ul li {
+    padding-bottom: 2.4rem;
+  }
+
+  .footer ul li a {
+    margin: 0;
   }
 }
