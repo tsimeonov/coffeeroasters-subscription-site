@@ -702,11 +702,28 @@ img[alt="truck"] {
     margin: 3rem 0;
   }
 
-  .how-it-works h3 {
+  .how-it-works {
     text-align: center;
   }
 
   .how-it-works-bar {
     display: none;
+  }
+
+  .how-it-works-content {
+    flex-direction: column;
+  }
+
+  .how-it-works div:nth-of-type(1),
+  .how-it-works div:nth-of-type(2) {
+    margin-right: 0;
+  }
+
+  .how-it-works-content div h4 {
+    width: 100%;
+  }
+
+  .how-it-works-button {
+    margin: 0 auto;
   }
 }
