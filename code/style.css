@@ -554,7 +554,7 @@ img[alt="truck"] {
   }
 
   .container {
-    grid-template-rows: 7rem 66rem 160rem 1fr 1fr 1fr;
+    grid-template-rows: 7rem 66rem 160rem 1fr 150rem 1fr;
   }
 
   nav ul {
