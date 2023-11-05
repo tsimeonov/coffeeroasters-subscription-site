@@ -690,11 +690,15 @@ img[alt="truck"] {
     margin-top: 6rem;
   }
 
+  .why-us-content div {
+    flex-direction: column;
+  }
+
   .why-us div img {
-    margin: 3rem 5rem;
+    margin: 7rem 10rem;
   }
 
   .why-us-content div div {
-    margin: 3rem 4rem 0 0;
+    margin: 3rem 0;
   }
 }
