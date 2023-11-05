@@ -143,10 +143,16 @@ a:hover {
 .banner img {
   width: 100vw;
   height: 50vh;
-  /* height: 100%; */
+  border-radius: 1rem;
 }
+
 img[alt="tablet banner"],
 img[alt="mobile banner"] {
+  display: none;
+}
+
+img[alt="tablet banner about us"],
+img[alt="mobile banner about us"] {
   display: none;
 }
 
