@@ -368,6 +368,13 @@ img[alt="truck"] {
   box-shadow: 0 0 0 0.5rem #fff;
 }
 
+.how-it-works-content div p:first-of-type {
+  color: #fdd6ba;
+  font-family: Fraunces, sans-serif;
+  font-size: 7.2rem;
+  line-height: 7.2rem; /* 100% */
+}
+
 .footer {
   grid-area: footer;
 }
