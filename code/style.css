@@ -382,6 +382,13 @@ img[alt="truck"] {
   line-height: 7.2rem; /* 100% */
 }
 
+.how-it-works-content div h4 {
+  color: #333d4b;
+  font-family: Fraunces, sans-serif;
+  font-size: 3.2rem;
+  line-height: 3.6rem; /* 112.5% */
+}
+
 .footer {
   grid-area: footer;
 }
