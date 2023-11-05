@@ -435,12 +435,17 @@ img[alt="truck"] {
   transform: scale(1.05);
 }
 
+/************ FOOTER ************/
 .footer {
   grid-area: footer;
   outline: 1px solid red;
   background: #2c343e;
   display: flex;
   align-items: center;
+}
+
+.footer > img {
+  fill: white;
 }
 
 .social {
