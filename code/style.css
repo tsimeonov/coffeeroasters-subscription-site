@@ -375,6 +375,15 @@ img[alt="truck"] {
   box-shadow: 0 0 0 0.5rem #fff;
 }
 
+.how-it-works-content {
+  display: flex;
+}
+
+.how-it-works div:nth-of-type(1),
+.how-it-works div:nth-of-type(2) {
+  margin-right: 9.5rem;
+}
+
 .how-it-works-content div p:first-of-type {
   color: #fdd6ba;
   font-family: Fraunces, sans-serif;
