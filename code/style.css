@@ -705,4 +705,8 @@ img[alt="truck"] {
   .how-it-works h3 {
     text-align: center;
   }
+
+  .how-it-works-bar {
+    display: none;
+  }
 }
