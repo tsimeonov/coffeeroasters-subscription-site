@@ -389,6 +389,14 @@ img[alt="truck"] {
   line-height: 3.6rem; /* 112.5% */
 }
 
+.how-it-works-content div p:last-of-type {
+  color: #333d4b;
+  font-family: Barlow, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem; /* 162.5% */
+  width: 28.5rem;
+}
+
 .footer {
   grid-area: footer;
 }
