@@ -701,4 +701,8 @@ img[alt="truck"] {
   .why-us-content div div {
     margin: 3rem 0;
   }
+
+  .how-it-works h3 {
+    text-align: center;
+  }
 }
