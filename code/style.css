@@ -692,7 +692,18 @@ img[alt="truck"] {
   }
 
   .out-commitment-content {
-    margin: 9rem 0 0 4.5rem;
+    margin: 2rem 4rem 4rem 4.5rem;
+  }
+
+  .our-commitment h4 {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    /* white-space: nowrap; */
+  }
+
+  .our-commitment p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 }
 
