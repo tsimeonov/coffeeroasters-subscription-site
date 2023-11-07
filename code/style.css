@@ -943,4 +943,16 @@ img[alt="truck"] {
   .footer ul li a {
     margin: 0;
   }
+
+  .our-commitment {
+    flex-direction: column;
+  }
+
+  .out-commitment-content {
+    margin: 2rem 0 4rem 0;
+  }
+
+  .our-commitment h4 {
+    text-align: center;
+  }
 }
