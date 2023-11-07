@@ -514,6 +514,24 @@ img[alt="truck"] {
   outline: 1px solid red;
 }
 
+.our-commitment > img {
+  border-radius: 1rem;
+}
+
+.our-commitment h4 {
+  color: #333d4b;
+  font-family: Fraunces, sans-serif;
+  font-size: 4rem;
+  line-height: 4.8rem; /* 120% */
+}
+
+.our-commitment p {
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 1.6rem;
+  line-height: 2.6rem; /* 162.5% */
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
