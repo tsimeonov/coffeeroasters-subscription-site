@@ -508,6 +508,12 @@ img[alt="truck"] {
   margin: 0 2rem;
 }
 
+/************ OUR-COMITMENT ************/
+.our-commitment {
+  grid-area: our-commitment;
+  outline: 1px solid red;
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
