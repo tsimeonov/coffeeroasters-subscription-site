@@ -791,6 +791,15 @@ img[alt="truck"] {
     display: block;
   }
 
+  img[alt="our-commitment-desktop"],
+  img[alt="our-commitment-tablet"] {
+    display: none;
+  }
+
+  img[alt="our-commitment-mobile"] {
+    display: block;
+  }
+
   .banner-about-us > .banner-content {
     margin: 0;
   }
