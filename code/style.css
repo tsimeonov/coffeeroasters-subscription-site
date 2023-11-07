@@ -736,6 +736,19 @@ img[alt="truck"] {
     display: block;
   }
 
+  .banner-about-us > .banner-content {
+    margin: 0;
+  }
+
+  .banner-about-us h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .banner-about-us > .banner-content p {
+    margin: 2.4rem 3rem 0 3rem;
+  }
+
   .banner {
     display: flex;
     justify-content: center;
