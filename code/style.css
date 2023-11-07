@@ -102,9 +102,9 @@ h6 {
   grid-template-areas:
     "navbar"
     "banner-about-us"
-    "our-collection"
-    "why-us"
-    "how-it-works"
+    "our-commitment"
+    "quality"
+    "headquaters"
     "footer";
 }
 
