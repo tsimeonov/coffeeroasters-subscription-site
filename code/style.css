@@ -610,6 +610,8 @@ img[alt="image quality desktop"] {
 
 .headquarters-content {
   display: flex;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
 .headquarters-content h5 {
