@@ -567,6 +567,8 @@ img[alt="image quality mobile"] {
   font-family: Fraunces, sans-serif;
   font-size: 4rem;
   line-height: 4.8rem; /* 120% */
+  padding-top: 10rem;
+  padding-left: 8.5rem;
 }
 
 .quality p {
@@ -574,6 +576,10 @@ img[alt="image quality mobile"] {
   font-family: Barlow, sans-serif;
   font-size: 1.6rem;
   line-height: 2.6rem; /* 162.5% */
+  padding-top: 3.2rem;
+  padding-left: 8.5rem;
+  padding-bottom: 12rem;
+  width: 42%;
 }
 
 img[alt="image quality desktop"] {
