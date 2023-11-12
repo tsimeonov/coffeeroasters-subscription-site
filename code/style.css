@@ -553,6 +553,8 @@ img[alt="truck"] {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1rem;
+  position: relative;
+  margin-top: 30rem;
 }
 
 img[alt="image quality tablet"],
@@ -572,6 +574,13 @@ img[alt="image quality mobile"] {
   font-family: Barlow, sans-serif;
   font-size: 1.6rem;
   line-height: 2.6rem; /* 162.5% */
+}
+
+img[alt="image quality desktop"] {
+  position: absolute;
+  top: -20%;
+  right: 7%;
+  border-radius: 1rem;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
