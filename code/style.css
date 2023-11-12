@@ -850,7 +850,7 @@ img[alt="image quality desktop"] {
   }
 
   .container-about-us {
-    grid-template-rows: 7rem 46rem 1fr 80rem 1fr 30rem;
+    grid-template-rows: 7rem 46rem 1fr 80rem 1fr 45rem;
   }
 
   nav ul {
