@@ -551,6 +551,11 @@ img[alt="truck"] {
   outline: 1px solid green;
 }
 
+img[alt="image quality tablet"],
+img[alt="image quality mobile"] {
+  display: none;
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
