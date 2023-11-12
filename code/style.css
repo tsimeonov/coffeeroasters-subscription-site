@@ -772,6 +772,14 @@ img[alt="image quality desktop"] {
 
   .quality h4 {
     font-size: 3.2rem;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20rem;
+  }
+
+  .quality p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
   }
 }
 
