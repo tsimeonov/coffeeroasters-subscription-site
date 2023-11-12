@@ -549,6 +549,10 @@ img[alt="truck"] {
 .quality {
   grid-area: quality;
   outline: 1px solid green;
+  background-image: url("./assets/about/desktop/bg-quality.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
 }
 
 img[alt="image quality tablet"],
