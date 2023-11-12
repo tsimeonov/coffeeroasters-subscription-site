@@ -545,6 +545,12 @@ img[alt="truck"] {
   margin-top: 3.2rem;
 }
 
+/************ QUALITY ************/
+.quality {
+  grid-area: quality;
+  outline: 1px solid green;
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
