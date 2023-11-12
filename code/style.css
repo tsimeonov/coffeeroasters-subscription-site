@@ -598,7 +598,8 @@ img[alt="image quality desktop"] {
 .headquaters {
   grid-area: headquaters;
   outline: 1px solid red;
-  margin-top: 17rem;
+  width: 90%;
+  margin: 17rem auto;
 }
 
 .headquaters h4 {
@@ -607,13 +608,13 @@ img[alt="image quality desktop"] {
   font-size: 2.4rem;
   line-height: 3.2rem;
   margin-bottom: 7.2rem;
-  margin-left: 20rem;
+  /* margin-left: 20rem; */
 }
 
 .headquarters-content {
   display: flex;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .headquarters-content h5 {
