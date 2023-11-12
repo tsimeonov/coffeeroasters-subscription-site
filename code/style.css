@@ -598,13 +598,25 @@ img[alt="image quality desktop"] {
 .headquaters {
   grid-area: headquaters;
   outline: 1px solid red;
+  margin-top: 17rem;
 }
 
 .headquaters h4 {
   color: #83888f;
   font-family: Fraunces, sans-serif;
   font-size: 2.4rem;
-  line-height: 3.2rem; /* 133.333% */
+  line-height: 3.2rem;
+}
+
+.headquarters-content {
+  display: flex;
+}
+
+.headquarters-content h5 {
+  color: #333d4b;
+  font-family: Fraunces, sans-serif;
+  font-size: 3.2rem;
+  line-height: 3.6rem; /* 112.5% */
 }
 
 /********************** MEDIA QUERY TABLET **********************/
