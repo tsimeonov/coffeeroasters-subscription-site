@@ -754,6 +754,16 @@ img[alt="image quality desktop"] {
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
+
+  /************ QUALITY ************/
+  img[alt="image quality desktop"],
+  img[alt="image quality mobile"] {
+    display: none;
+  }
+
+  img[alt="image quality tablet"] {
+    display: block;
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
