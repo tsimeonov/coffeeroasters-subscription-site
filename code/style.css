@@ -1111,8 +1111,25 @@ img[alt="image quality desktop"] {
     text-align: center;
   }
 
+  img[alt="united kingdom"],
+  img[alt="canada"],
+  img[alt="australia"] {
+    display: block;
+    margin: auto;
+  }
+
   .headquarters-content {
     flex-direction: column;
     align-items: center;
+    outline: 3px solid green;
+  }
+
+  .headquarters-content div {
+    text-align: center;
+    outline: 1px solid red;
+  }
+
+  .headquarters-content div:nth-of-type(2) {
+    margin: 8rem 0;
   }
 }
