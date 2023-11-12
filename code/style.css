@@ -594,6 +594,19 @@ img[alt="image quality desktop"] {
   z-index: 1;
 }
 
+/************ HEADQUATERS ************/
+.headquaters {
+  grid-area: headquaters;
+  outline: 1px solid red;
+}
+
+.headquaters h4 {
+  color: #83888f;
+  font-family: Fraunces, sans-serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem; /* 133.333% */
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
