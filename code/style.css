@@ -633,6 +633,9 @@ img[alt="image quality desktop"] {
 }
 
 /************ FOOTER ABOUT US ************/
+.footer-about-us {
+  padding: 5.4rem auto 5.4rem 0;
+}
 
 /********************** MEDIA QUERY TABLET **********************/
 
@@ -646,7 +649,7 @@ img[alt="image quality desktop"] {
   }
 
   .container-about-us {
-    grid-template-rows: 7rem 46rem 1fr 1fr 1fr 30rem;
+    grid-template-rows: 7rem 46rem 1fr 1fr 1fr 45rem;
   }
 
   /* .banner img {
