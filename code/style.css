@@ -567,6 +567,13 @@ img[alt="image quality mobile"] {
   line-height: 4.8rem; /* 120% */
 }
 
+.quality p {
+  color: #fefcf7;
+  font-family: Barlow, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem; /* 162.5% */
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
