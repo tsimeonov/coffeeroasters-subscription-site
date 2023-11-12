@@ -621,6 +621,7 @@ img[alt="image quality desktop"] {
   font-family: Fraunces, sans-serif;
   font-size: 3.2rem;
   line-height: 3.6rem; /* 112.5% */
+  margin: 4.5rem 0 2.5rem 0;
 }
 
 .headquarters-content p {
