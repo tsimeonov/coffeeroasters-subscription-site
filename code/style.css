@@ -1054,4 +1054,8 @@ img[alt="image quality desktop"] {
   .quality h4 {
     font-size: 2.8rem;
   }
+
+  .quality p {
+    padding: 2.4rem 2.4rem 6.1rem 2.4rem;
+  }
 }
