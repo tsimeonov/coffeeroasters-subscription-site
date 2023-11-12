@@ -569,6 +569,8 @@ img[alt="image quality mobile"] {
   line-height: 4.8rem; /* 120% */
   padding-top: 10rem;
   padding-left: 8.5rem;
+  position: inherit;
+  z-index: 5;
 }
 
 .quality p {
@@ -580,6 +582,8 @@ img[alt="image quality mobile"] {
   padding-left: 8.5rem;
   padding-bottom: 12rem;
   width: 42%;
+  position: inherit;
+  z-index: 5;
 }
 
 img[alt="image quality desktop"] {
@@ -587,6 +591,7 @@ img[alt="image quality desktop"] {
   top: -20%;
   right: 7%;
   border-radius: 1rem;
+  z-index: 1;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
