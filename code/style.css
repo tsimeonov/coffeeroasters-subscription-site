@@ -780,6 +780,9 @@ img[alt="image quality desktop"] {
   .quality p {
     font-size: 1.5rem;
     line-height: 2.5rem;
+    padding: 2.4rem 7.4rem 6.7rem 7.4rem;
+    width: 100%;
+    text-align: center;
   }
 }
 
