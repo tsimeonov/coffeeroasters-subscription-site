@@ -1105,4 +1105,14 @@ img[alt="image quality desktop"] {
   .quality p {
     padding: 2.4rem 2.4rem 6.1rem 2.4rem;
   }
+
+  /************ HEADQUATERS ************/
+  .headquaters h4 {
+    text-align: center;
+  }
+
+  .headquarters-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
