@@ -822,6 +822,15 @@ img[alt="image quality desktop"] {
     width: 100%;
     text-align: center;
   }
+
+  /************ HEADQUATERS ************/
+  .headquaters {
+    width: 100%;
+  }
+
+  .headquarters-content h5 {
+    font-size: 2.4rem;
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
