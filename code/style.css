@@ -763,6 +763,11 @@ img[alt="image quality desktop"] {
 
   img[alt="image quality tablet"] {
     display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
   }
 }
 
