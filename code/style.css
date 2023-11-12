@@ -1034,4 +1034,20 @@ img[alt="image quality desktop"] {
   .our-commitment h4 {
     text-align: center;
   }
+
+  /************ QUALITY ************/
+  img[alt="image quality desktop"],
+  img[alt="image quality tablet"] {
+    display: none;
+  }
+
+  img[alt="image quality mobile"] {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    width: 90%;
+  }
 }
