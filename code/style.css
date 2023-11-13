@@ -188,6 +188,11 @@ img[alt="our-commitment-mobile"] {
   display: none;
 }
 
+img[alt="tablet plan"],
+img[alt="mobile plan"] {
+  display: none;
+}
+
 .banner-content {
   position: absolute;
   top: 0;
