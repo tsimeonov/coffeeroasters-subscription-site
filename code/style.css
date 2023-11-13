@@ -956,6 +956,15 @@ img[alt="image quality desktop"] {
     display: block;
   }
 
+  img[alt="desktop plan"],
+  img[alt="tablet plan"] {
+    display: none;
+  }
+
+  img[alt="mobile plan"] {
+    display: block;
+  }
+
   .banner-about-us > .banner-content {
     margin: 0;
   }
