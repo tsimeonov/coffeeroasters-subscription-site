@@ -182,6 +182,10 @@ a:hover {
   border-radius: 1rem;
 }
 
+.banner-plan img {
+  height: 35vh;
+}
+
 .banner-about-us {
   grid-area: banner-about-us;
 }
