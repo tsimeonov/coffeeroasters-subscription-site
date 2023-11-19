@@ -448,9 +448,9 @@ img[alt="truck"] {
   height: 1.5rem;
   display: flex;
   justify-content: space-between;
-  width: 60vw;
+  width: 40vw;
   margin: 8rem 0 6.5rem 0;
-  padding-left: 2px;
+  padding-left: -5px;
   /* padding-left: -5px; */
 }
 
@@ -462,6 +462,14 @@ img[alt="truck"] {
   border: 2px solid #0e8784;
   border-radius: 2.5rem;
   box-shadow: 0 0 0 0.5rem #fff;
+}
+
+.how-it-works-bar-plan div:nth-of-type(1) {
+  margin-left: -15px;
+}
+
+.how-it-works-bar-plan div:nth-of-type(3) {
+  margin-right: -15px;
 }
 
 .circle-plan {
