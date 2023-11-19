@@ -114,7 +114,7 @@ h6 {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 7rem 1fr 1fr 30rem;
+  grid-template-rows: 7rem 46rem 1fr 30rem;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-auto-flow: row;
@@ -673,6 +673,7 @@ img[alt="image quality desktop"] {
 .coffee-how-to {
   grid-area: coffee-how-to;
   outline: 2px solid blue;
+  margin-top: 15rem;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
