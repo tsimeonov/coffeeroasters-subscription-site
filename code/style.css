@@ -663,10 +663,12 @@ img[alt="image quality desktop"] {
 
 .banner-plan {
   grid-area: banner-plan;
+  outline: 2px solid green;
 }
 
 .coffee-how-to {
   grid-area: coffee-how-to;
+  outline: 2px solid blue;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
