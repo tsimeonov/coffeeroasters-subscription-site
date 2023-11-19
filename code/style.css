@@ -443,6 +443,16 @@ img[alt="truck"] {
   /* padding-left: -5px; */
 }
 
+.how-it-works-bar-plan {
+  border-bottom: 2px solid #fdd6ba;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 60vw;
+  margin: 8rem 0 6.5rem 0;
+  /* padding-left: -5px; */
+}
+
 .circle {
   display: inline-block;
   background: #fff;
@@ -698,11 +708,16 @@ img[alt="background-steps-mobile"] {
   display: none;
 }
 
-.how-it-works-bar,
+.how-it-works-bar-plan {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .coffee-how-to-content {
   position: absolute;
-  top: 15rem;
-  left: 8.5rem;
+  top: 0;
+  left: 0;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
