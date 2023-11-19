@@ -440,6 +440,7 @@ img[alt="truck"] {
   justify-content: space-between;
   width: 60vw;
   margin: 8rem 0 6.5rem 0;
+  /* padding-left: -5px; */
 }
 
 .circle {
@@ -459,7 +460,6 @@ img[alt="truck"] {
   height: 3rem;
   border: 2px solid #0e8784;
   border-radius: 2.5rem;
-  /* box-shadow: 0 0 0 0.5rem #fff; */
 }
 
 .how-it-works-content {
@@ -684,6 +684,7 @@ img[alt="image quality desktop"] {
   grid-area: coffee-how-to;
   outline: 2px solid blue;
   margin-top: 15rem;
+
   position: relative;
 }
 
@@ -700,8 +701,8 @@ img[alt="background-steps-mobile"] {
 .how-it-works-bar,
 .coffee-how-to-content {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 15rem;
+  left: 8.5rem;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
