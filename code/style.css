@@ -677,6 +677,11 @@ img[alt="image quality desktop"] {
   position: relative;
 }
 
+img[alt="background-steps-desktop"] {
+  width: 100%;
+  height: 100%;
+}
+
 img[alt="background-steps-tablet"],
 img[alt="background-steps-mobile"] {
   display: none;
