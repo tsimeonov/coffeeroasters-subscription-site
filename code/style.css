@@ -744,6 +744,15 @@ img[alt="background-steps-mobile"] {
     display: block;
   }
 
+  img[alt="background-steps-desktop"],
+  img[alt="background-steps-mobile"] {
+    display: none;
+  }
+
+  img[alt="background-steps-tablet"] {
+    display: block;
+  }
+
   .banner-content {
     margin: 15rem 0 0 10rem;
   }
