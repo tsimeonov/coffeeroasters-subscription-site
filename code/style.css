@@ -1028,6 +1028,18 @@ img[alt="background-steps-mobile"] {
     display: block;
   }
 
+  img[alt="background-steps-desktop"],
+  img[alt="background-steps-tablet"] {
+    display: none;
+  }
+
+  img[alt="background-steps-mobile"] {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
   .banner-about-us > .banner-content {
     margin: 0;
   }
