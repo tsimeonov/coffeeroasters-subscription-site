@@ -674,11 +674,19 @@ img[alt="image quality desktop"] {
   grid-area: coffee-how-to;
   outline: 2px solid blue;
   margin-top: 15rem;
+  position: relative;
 }
 
 img[alt="background-steps-tablet"],
 img[alt="background-steps-mobile"] {
   display: none;
+}
+
+.how-it-works-bar,
+.coffee-how-to-content {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
