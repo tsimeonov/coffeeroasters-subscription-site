@@ -676,6 +676,11 @@ img[alt="image quality desktop"] {
   margin-top: 15rem;
 }
 
+img[alt="background-steps-tablet"],
+img[alt="background-steps-mobile"] {
+  display: none;
+}
+
 /********************** MEDIA QUERY TABLET **********************/
 
 @media screen and (max-width: 960px) {
