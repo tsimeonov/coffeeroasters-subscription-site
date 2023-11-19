@@ -709,9 +709,9 @@ img[alt="background-steps-mobile"] {
     grid-template-rows: 7rem 46rem 1fr 1fr 1fr 45rem;
   }
 
-  /* .banner img {
-    height: 59vh;
-  } */
+  .container-plan {
+    grid-template-rows: 7rem 46rem 1fr 30rem;
+  }
 
   img[alt="desktop banner"],
   img[alt="mobile banner"] {
@@ -928,6 +928,10 @@ img[alt="background-steps-mobile"] {
 
   .container-about-us {
     grid-template-rows: 7rem 46rem 1fr 80rem 1fr 45rem;
+  }
+
+  .container-plan {
+    grid-template-rows: 7rem 46rem 1fr 30rem;
   }
 
   nav ul {
