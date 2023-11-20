@@ -1027,7 +1027,7 @@ img[alt="background-steps-mobile"] {
   }
 
   .container-plan {
-    grid-template-rows: 7rem 46rem 1fr 30rem;
+    grid-template-rows: 7rem 46rem 125rem 30rem;
   }
 
   nav ul {
