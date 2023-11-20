@@ -724,8 +724,8 @@ img[alt="background-steps-mobile"] {
 
 .coffee-how-to-content {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 30rem;
+  left: 8.5rem;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
