@@ -780,6 +780,14 @@ img[alt="background-steps-mobile"] {
   grid-area: create-plan-nav;
   outline: 1px solid red;
 }
+
+.create-plan-nav > div > span {
+  color: #0e8784;
+  font-family: Fraunces, sans-serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem; /* 133.333% */
+}
+
 .create-plan-dropdown {
   grid-area: create-plan-dropdown;
   outline: 1px solid green;
