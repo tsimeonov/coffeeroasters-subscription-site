@@ -726,7 +726,24 @@ img[alt="background-steps-mobile"] {
   position: absolute;
   top: 30rem;
   left: 8.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
+
+.coffee-how-to-content > div {
+  width: 25.5rem;
+}
+
+/* .coffee-how-to-content > div:nth-of-type(2) {
+  outline: 1px solid red;
+  margin: 0 9.5rem;
+}
+
+.coffee-how-to-content > div:nth-of-type(3) {
+  outline: 1px solid green;
+  margin: 0 12rem 0 0;
+} */
 
 .coffee-how-to-content > div > p:first-child {
   color: #fdd6ba;
