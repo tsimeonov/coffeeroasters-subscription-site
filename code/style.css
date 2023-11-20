@@ -986,8 +986,16 @@ img[alt="background-steps-mobile"] {
 
   /************ COFFEE HOW TO ************/
 
+  .coffee-how-to {
+    border-radius: 1rem;
+  }
+
   .how-it-works-bar-plan {
     width: 60vw;
+  }
+
+  .coffee-how-to-content > div {
+    width: 22rem;
   }
 
   .coffee-how-to-content > div:nth-of-type(3) {
