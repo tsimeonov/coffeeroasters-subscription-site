@@ -1335,4 +1335,9 @@ img[alt="background-steps-mobile"] {
   .headquarters-content div:nth-of-type(2) {
     margin: 8rem 0;
   }
+
+  /************ COFFEE-HOW-TO ************/
+  .how-it-works-bar-plan {
+    display: none;
+  }
 }
