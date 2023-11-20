@@ -1340,4 +1340,9 @@ img[alt="background-steps-mobile"] {
   .how-it-works-bar-plan {
     display: none;
   }
+
+  .coffee-how-to-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
