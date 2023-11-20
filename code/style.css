@@ -1344,5 +1344,10 @@ img[alt="background-steps-mobile"] {
   .coffee-how-to-content {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  .coffee-how-to-content > div:nth-of-type(3) {
+    margin: 0;
   }
 }
