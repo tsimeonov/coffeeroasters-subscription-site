@@ -1349,6 +1349,10 @@ img[alt="background-steps-mobile"] {
     width: 80vw;
   }
 
+  .coffee-how-to-content > div {
+    width: 80%;
+  }
+
   .coffee-how-to-content > div:nth-child(2) > p:first-child,
   .coffee-how-to-content > div:nth-child(3) > p:first-child {
     outline: 2px solid blue;
