@@ -718,14 +718,14 @@ img[alt="background-steps-mobile"] {
 
 .how-it-works-bar-plan {
   position: absolute;
-  top: 15rem;
-  left: 8.5rem;
+  top: 2vh;
+  left: 6vw;
 }
 
 .coffee-how-to-content {
   position: absolute;
-  top: 30rem;
-  left: 8.5rem;
+  top: 15vh;
+  left: 6vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -738,12 +738,12 @@ img[alt="background-steps-mobile"] {
 /* .coffee-how-to-content > div:nth-of-type(2) {
   outline: 1px solid red;
   margin: 0 9.5rem;
-}
+} */
 
 .coffee-how-to-content > div:nth-of-type(3) {
   outline: 1px solid green;
-  margin: 0 12rem 0 0;
-} */
+  margin: 0 24rem 0 0;
+}
 
 .coffee-how-to-content > div > p:first-child {
   color: #fdd6ba;
