@@ -983,6 +983,10 @@ img[alt="background-steps-mobile"] {
   .headquarters-content h5 {
     font-size: 2.4rem;
   }
+
+  .coffee-how-to-content > div:nth-of-type(3) {
+    margin: 0 8rem 0 0;
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
