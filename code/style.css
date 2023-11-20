@@ -114,7 +114,7 @@ h6 {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 7rem 46rem 60rem 30rem;
+  grid-template-rows: 7rem 46rem 60rem 120rem 30rem;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-auto-flow: row;
@@ -122,6 +122,7 @@ h6 {
     "navbar"
     "banner-plan"
     "coffee-how-to"
+    "create-plan"
     "footer";
 }
 
@@ -762,6 +763,26 @@ img[alt="background-steps-mobile"] {
   font-family: Barlow, sans-serif;
   font-size: 1.6rem;
   line-height: 2.6rem; /* 162.5% */
+}
+
+/************ CREATE-PLAN ************/
+
+.create-plan {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "create-plan-nav create-plan-dropdown";
+  grid-area: create-plan;
+  margin-top: 28rem;
+}
+.create-plan-nav {
+  grid-area: create-plan-nav;
+  outline: 1px solid red;
+}
+.create-plan-dropdown {
+  grid-area: create-plan-dropdown;
+  outline: 1px solid green;
 }
 
 /********************** MEDIA QUERY TABLET **********************/
