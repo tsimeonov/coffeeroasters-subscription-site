@@ -728,7 +728,7 @@ img[alt="background-steps-mobile"] {
   left: 8.5rem;
 }
 
-.coffee-how-to-content > div > p {
+.coffee-how-to-content > div > p:first-child {
   color: #fdd6ba;
   font-family: Fraunces 9pt;
   font-size: 72px;
