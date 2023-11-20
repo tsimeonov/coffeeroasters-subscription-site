@@ -984,6 +984,12 @@ img[alt="background-steps-mobile"] {
     font-size: 2.4rem;
   }
 
+  /************ COFFEE HOW TO ************/
+
+  .how-it-works-bar-plan {
+    width: 60vw;
+  }
+
   .coffee-how-to-content > div:nth-of-type(3) {
     margin: 0 8rem 0 0;
   }
