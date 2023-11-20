@@ -769,7 +769,7 @@ img[alt="background-steps-mobile"] {
 
 .create-plan {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1.5fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas: "create-plan-nav create-plan-dropdown";
@@ -779,6 +779,10 @@ img[alt="background-steps-mobile"] {
 .create-plan-nav {
   grid-area: create-plan-nav;
   outline: 1px solid red;
+}
+
+.create-plan-nav > div {
+  display: flex;
 }
 
 .create-plan-nav > div > span {
