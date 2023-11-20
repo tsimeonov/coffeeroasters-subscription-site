@@ -1345,6 +1345,8 @@ img[alt="background-steps-mobile"] {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    outline: 1px solid red;
+    width: 80vw;
   }
 
   .coffee-how-to-content > div:nth-of-type(3) {
