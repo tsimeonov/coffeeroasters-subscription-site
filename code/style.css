@@ -997,6 +997,10 @@ img[alt="background-steps-mobile"] {
   .coffee-how-to-content > div > h4 {
     font-size: 2.8rem;
   }
+
+  .coffee-how-to-content > div > p:last-child {
+    font-size: 1.5rem;
+  }
 }
 
 /********************** MEDIA QUERY MOBILE **********************/
