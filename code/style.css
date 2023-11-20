@@ -114,7 +114,7 @@ h6 {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 7rem 46rem 1fr 30rem;
+  grid-template-rows: 7rem 46rem 60rem 30rem;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   grid-auto-flow: row;
@@ -704,6 +704,8 @@ img[alt="image quality desktop"] {
   outline: 2px solid blue;
   margin-top: 15rem;
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 img[alt="background-steps-desktop"] {
@@ -718,14 +720,14 @@ img[alt="background-steps-mobile"] {
 
 .how-it-works-bar-plan {
   position: absolute;
-  top: 2vh;
-  left: 6vw;
+  top: 0;
+  left: 5vw;
 }
 
 .coffee-how-to-content {
   position: absolute;
-  top: 15vh;
-  left: 6vw;
+  top: 12vh;
+  left: 5vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -734,11 +736,6 @@ img[alt="background-steps-mobile"] {
 .coffee-how-to-content > div {
   width: 25.5rem;
 }
-
-/* .coffee-how-to-content > div:nth-of-type(2) {
-  outline: 1px solid red;
-  margin: 0 9.5rem;
-} */
 
 .coffee-how-to-content > div:nth-of-type(3) {
   outline: 1px solid green;
