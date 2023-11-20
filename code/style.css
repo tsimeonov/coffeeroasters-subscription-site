@@ -730,20 +730,16 @@ img[alt="background-steps-mobile"] {
 
 .coffee-how-to-content > div > p:first-child {
   color: #fdd6ba;
-  font-family: Fraunces 9pt;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 72px; /* 100% */
+  font-family: Fraunces, sans-serif;
+  font-size: 7.2rem;
+  line-height: 7.2rem; /* 100% */
 }
 
 .coffee-how-to-content > div > h4 {
   color: #fefcf7;
-  font-family: Fraunces 9pt;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 36px; /* 112.5% */
+  font-family: Fraunces, sans-serif;
+  font-size: 3.2rem;
+  line-height: 3.6rem; /* 112.5% */
 }
 
 /********************** MEDIA QUERY TABLET **********************/
