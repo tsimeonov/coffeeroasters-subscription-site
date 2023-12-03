@@ -846,15 +846,19 @@ img[alt="background-steps-mobile"] {
 }
 
 .answer > div {
+  width: 22.8rem;
+  height: 25rem;
   border-radius: 8px;
   background: #f4f1eb;
+  padding: 3.2rem 2.8rem;
 }
 
-/* .answer p {
-  padding-top: 1rem;
-  line-height: 1.6;
-  font-size: 1.4rem;
-} */
+.answer p {
+  color: #333d4b;
+  font-family: Barlow, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem; /* 162.5% */
+}
 
 .faq.active .answer {
   max-height: 300px;
