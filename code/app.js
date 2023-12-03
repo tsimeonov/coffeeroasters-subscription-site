@@ -13,13 +13,6 @@ closeBtn.addEventListener("click", () => {
 
 // FAQ SECTION
 const faqs = document.querySelectorAll(".faq");
-const createPlanDivOne = document.querySelector(
-  ".create-plan-nav > div:nth-of-type(1)"
-);
-
-const faqOne = document.querySelector(
-  ".create-plan-dropdown > div:nth-of-type(1)"
-);
 
 faqs.forEach((faq) => {
   faq.addEventListener("click", () => {
@@ -27,6 +20,11 @@ faqs.forEach((faq) => {
   });
 });
 
-createPlanDivOne.addEventListener("click", () => {
-  faqOne.classList.toggle("active");
+const createPlanDivs = document.querySelectorAll(".create-plan-nav > div");
+const faqsEx = document.querySelectorAll(".create-plan-dropdown > div");
+
+createPlanDivs.forEach((createPlanDiv, index) => {
+  createPlanDiv.addEventListener("click", () => {
+    faqsEx[index].classList.toggle("active");
+  });
 });
