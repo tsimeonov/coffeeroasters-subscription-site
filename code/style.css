@@ -783,6 +783,9 @@ img[alt="background-steps-mobile"] {
 
 .create-plan-nav > div {
   display: flex;
+  margin-bottom: 5rem;
+  /* opacity: 0.25; */
+  border-bottom: #83888f;
 }
 
 .create-plan-nav > div > span {
