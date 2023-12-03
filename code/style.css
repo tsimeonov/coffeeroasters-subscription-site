@@ -787,6 +787,10 @@ img[alt="background-steps-mobile"] {
   border-bottom: 2px solid hsla(215, 5%, 54%, 0.25);
 }
 
+.create-plan-nav > div:nth-of-type(1) {
+  /* outline: 2px solid red; */
+}
+
 .create-plan-nav > div > span {
   color: #83888f;
   font-family: Fraunces, sans-serif;
@@ -806,6 +810,10 @@ img[alt="background-steps-mobile"] {
 .create-plan-dropdown {
   grid-area: create-plan-dropdown;
   outline: 1px solid green;
+}
+
+.create-plan-dropdown > div:nth-of-type(1) {
+  /* outline: 1px solid red; */
 }
 
 .faq {
