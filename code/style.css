@@ -774,6 +774,7 @@ img[alt="background-steps-mobile"] {
   gap: 0px 0px;
   grid-template-areas: "create-plan-nav create-plan-dropdown";
   grid-area: create-plan;
+  justify-items: center;
   margin-top: 28rem;
 }
 .create-plan-nav {
@@ -843,10 +844,11 @@ img[alt="background-steps-mobile"] {
   /* Add transition */
   transition: max-height 1s ease;
   display: flex;
+  justify-content: space-between;
 }
 
 .answer > div {
-  width: 22.8rem;
+  width: 21.8rem;
   height: 25rem;
   border-radius: 8px;
   background: #f4f1eb;
@@ -858,6 +860,7 @@ img[alt="background-steps-mobile"] {
   font-family: Fraunces, sans-serif;
   font-size: 2.4rem;
   line-height: 3.2rem; /* 133.333% */
+  margin-bottom: 2.4rem;
 }
 
 .answer p {
