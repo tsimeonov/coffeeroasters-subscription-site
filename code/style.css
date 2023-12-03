@@ -845,11 +845,12 @@ img[alt="background-steps-mobile"] {
   transition: max-height 1s ease;
   display: flex;
   justify-content: space-between;
+  margin-top: 5.6rem;
 }
 
 .answer > div {
-  width: 21.8rem;
-  height: 25rem;
+  width: 20rem;
+  height: 22rem;
   border-radius: 8px;
   background: #f4f1eb;
   padding: 3.2rem 2.8rem;
