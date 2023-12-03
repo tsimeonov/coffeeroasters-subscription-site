@@ -831,7 +831,10 @@ img[alt="background-steps-mobile"] {
 }
 
 .question h3 {
-  font-size: 1.8rem;
+  color: #83888f;
+  font-family: Fraunces, sans-serif;
+  font-size: 4rem;
+  line-height: 4.8rem;
 }
 
 .answer {
