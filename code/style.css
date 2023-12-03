@@ -842,6 +842,12 @@ img[alt="background-steps-mobile"] {
   overflow: hidden;
   /* Add transition */
   transition: max-height 1s ease;
+  display: flex;
+}
+
+.answer > div {
+  border-radius: 8px;
+  background: #f4f1eb;
 }
 
 /* .answer p {
