@@ -769,7 +769,8 @@ img[alt="background-steps-mobile"] {
 
 .create-plan {
   display: grid;
-  grid-template-columns: 30rem 75rem;
+  /* grid-template-columns: 30rem 75rem; */
+  grid-template-columns: 0.5fr 1.5fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-template-areas: "create-plan-nav create-plan-dropdown";
@@ -836,6 +837,7 @@ img[alt="background-steps-mobile"] {
   font-family: Fraunces, sans-serif;
   font-size: 4rem;
   line-height: 4.8rem;
+  margin-right: 5rem;
 }
 
 .answer {
