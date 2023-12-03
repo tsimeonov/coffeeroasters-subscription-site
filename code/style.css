@@ -853,6 +853,13 @@ img[alt="background-steps-mobile"] {
   padding: 3.2rem 2.8rem;
 }
 
+.answer h4 {
+  color: #333d4b;
+  font-family: Fraunces, sans-serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem; /* 133.333% */
+}
+
 .answer p {
   color: #333d4b;
   font-family: Barlow, sans-serif;
