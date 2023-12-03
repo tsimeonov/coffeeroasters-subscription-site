@@ -841,11 +841,11 @@ img[alt="background-steps-mobile"] {
   transition: max-height 1s ease;
 }
 
-.answer p {
+/* .answer p {
   padding-top: 1rem;
   line-height: 1.6;
   font-size: 1.4rem;
-}
+} */
 
 .faq.active .answer {
   max-height: 300px;
