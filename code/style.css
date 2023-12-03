@@ -783,7 +783,7 @@ img[alt="background-steps-mobile"] {
 
 .create-plan-nav > div {
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 2.4rem;
   border-bottom: 2px solid hsla(215, 5%, 54%, 0.25);
 }
 
@@ -792,6 +792,7 @@ img[alt="background-steps-mobile"] {
   font-family: Fraunces, sans-serif;
   font-size: 2.4rem;
   line-height: 3.2rem; /* 133.333% */
+  margin-bottom: 2.4rem;
 }
 
 .create-plan-nav > div > p {
