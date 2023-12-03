@@ -793,6 +793,7 @@ img[alt="background-steps-mobile"] {
   font-size: 2.4rem;
   line-height: 3.2rem; /* 133.333% */
   margin-bottom: 2.4rem;
+  padding-right: 2.8rem;
 }
 
 .create-plan-nav > div > p {
