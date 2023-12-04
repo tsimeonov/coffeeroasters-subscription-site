@@ -880,6 +880,10 @@ img[alt="background-steps-mobile"] {
   animation: fade 1s ease;
 }
 
+.answer.acitve {
+  outline: 1px solid blue;
+}
+
 .faq.active svg {
   transform: rotate(180deg);
 }

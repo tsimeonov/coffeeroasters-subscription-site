@@ -21,6 +21,11 @@ closeBtn.addEventListener("click", () => {
 // });
 
 const faqTitles = document.querySelectorAll(".question h3");
+faqTitles.forEach((title) => {
+  title.addEventListener("click", () => {
+    title.style.outline = "1px solid red";
+  });
+});
 
 const createPlanDivs = document.querySelectorAll(".create-plan-nav > div");
 const faqsEx = document.querySelectorAll(".create-plan-dropdown > div");
