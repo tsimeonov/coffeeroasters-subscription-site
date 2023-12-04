@@ -12,13 +12,15 @@ closeBtn.addEventListener("click", () => {
 });
 
 // FAQ SECTION
-const faqs = document.querySelectorAll(".faq");
+// const faqs = document.querySelectorAll(".faq");
 
-faqs.forEach((faq) => {
-  faq.addEventListener("click", () => {
-    faq.classList.toggle("active");
-  });
-});
+// faqs.forEach((faq) => {
+//   faq.addEventListener("click", () => {
+//     faq.classList.toggle("active");
+//   });
+// });
+
+const faqTitles = document.querySelectorAll(".question h3");
 
 const createPlanDivs = document.querySelectorAll(".create-plan-nav > div");
 const faqsEx = document.querySelectorAll(".create-plan-dropdown > div");
